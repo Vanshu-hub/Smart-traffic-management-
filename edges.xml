@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<edges>
+    <!-- Inbound edges -->
+    <edge id="N_in" from="N" to="J0" priority="3" numLanes="2" speed="16.7" dir="f"/>
+    <edge id="S_in" from="S" to="J0" priority="3" numLanes="2" speed="16.7" dir="f"/>
+    <edge id="E_in" from="E" to="J0" priority="3" numLanes="2" speed="16.7" dir="f"/>
+    <edge id="W_in" from="W" to="J0" priority="3" numLanes="2" speed="16.7" dir="f"/>
+
+    <!-- Outbound edges -->
+    <edge id="N_out" from="J0" to="N" priority="3" numLanes="2" speed="16.7" dir="f"/>
+    <edge id="S_out" from="J0" to="S" priority="3" numLanes="2" speed="16.7" dir="f"/>
+    <edge id="E_out" from="J0" to="E" priority="3" numLanes="2" speed="16.7" dir="f"/>
+    <edge id="W_out" from="J0" to="W" priority="3" numLanes="2" speed="16.7" dir="f"/>
+</edges>

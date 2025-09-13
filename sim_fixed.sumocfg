@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <input>
+        <net-file value="net.net.xml"/>
+        <route-files value="routes.xml"/>
+        <!-- No additional-files here; connections were already applied during netconvert -->
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="60"/>
+        <step-length value="1.0"/>
+    </time>
+</configuration>

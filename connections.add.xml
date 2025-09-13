@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<additional>
+    <!-- From N_in -->
+    <connection from="N_in" to="S_out" fromLane="0" toLane="0"/>
+    <connection from="N_in" to="S_out" fromLane="1" toLane="1"/>
+    <connection from="N_in" to="E_out" fromLane="0" toLane="0"/>
+    <connection from="N_in" to="W_out" fromLane="1" toLane="1"/>
+
+    <!-- From S_in -->
+    <connection from="S_in" to="N_out" fromLane="0" toLane="0"/>
+    <connection from="S_in" to="N_out" fromLane="1" toLane="1"/>
+    <connection from="S_in" to="W_out" fromLane="0" toLane="0"/>
+    <connection from="S_in" to="E_out" fromLane="1" toLane="1"/>
+
+    <!-- From E_in -->
+    <connection from="E_in" to="W_out" fromLane="0" toLane="0"/>
+    <connection from="E_in" to="W_out" fromLane="1" toLane="1"/>
+    <connection from="E_in" to="S_out" fromLane="0" toLane="0"/>
+    <connection from="E_in" to="N_out" fromLane="1" toLane="1"/>
+
+    <!-- From W_in -->
+    <connection from="W_in" to="E_out" fromLane="0" toLane="0"/>
+    <connection from="W_in" to="E_out" fromLane="1" toLane="1"/>
+    <connection from="W_in" to="N_out" fromLane="0" toLane="0"/>
+    <connection from="W_in" to="S_out" fromLane="1" toLane="1"/>
+</additional>
